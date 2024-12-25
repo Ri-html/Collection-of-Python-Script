@@ -1,0 +1,12 @@
+<<abstract>>
++ AbstractPiece implements Piece :class
+# final side:Side
+# display:char
++ AbstractPiece(Side side) 
++ getSide() :Side
+@Override
++ toString() :String
+@Override
++ equals(Object o) :boolean
+@Override
++ hashCode() :int
